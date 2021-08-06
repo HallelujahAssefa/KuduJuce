@@ -485,9 +485,15 @@ form .btn:hover{
         cursor: pointer;
         color: white;
         background-color: #ed872d;
+        text-align: center;
      }
+     .navLink.active{
+        display: block;
+    }
      nav ul li {
+
         padding: 10px;
+        font-size: 20px;
     }
     .headerButton{
         margin-bottom: 10px;
@@ -495,6 +501,7 @@ form .btn:hover{
     }
  .headerTitle{
     font-size: 40px;
+    margin-bottom: 10px;
  }
  .question{
      font-size: 40px;
