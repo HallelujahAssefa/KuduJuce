@@ -1,24 +1,12 @@
+//NAVBAR
+const navBar = document.querySelector('.navBar');
+const navLink = document.querySelector('.navLink');
 
-const mq = window.matchMedia("(max-width: 427px)");
+navBar.addEventListener('click', () =>{
+    navLink.classList.toggle('active')
+})
 
-if(mq.matches){
-const ul = document.querySelector('ul');
-const button = document.querySelector('.headerButton');
-const menuBar = document.querySelector('.navBar');
-
-function showNav(e){
-    if(ul.style.display != "block" & button.style.display !="block") {
-        ul.style.display = "block";
-        button.style.display ="block";
-        console.log(e.currentTarget)
-    } else {
-        ul.style.display = "none";
-        button.style.display ="none";
-    }
-}
-
-menuBar.addEventListener('click', showNav)
-}
+//MAIN
 
 const staff = document.querySelector('.staff');
 const theresoView = document.querySelector('#theresoView');
