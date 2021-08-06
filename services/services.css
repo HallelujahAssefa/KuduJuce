@@ -321,10 +321,17 @@ nav ul li a{
  nav ul li {
     padding: 10px;
 }
+.navLink.active{
+    display: block;
+}
 .headerButton{
     margin-bottom: 10px;
     display: none;
 }
+.headerTitle{
+    font-size: 40px;
+    margin-bottom: 10px;
+ }
  .textWrapper h1{
     font-size: 45px;
     padding-left: 15px;
