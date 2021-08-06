@@ -429,7 +429,7 @@ color: #393939;
         align-items: center;
      } 
      .navLink {
-         display: none;  
+        display: none;  
         flex-direction: column;
         justify-content: center;
         align-items: center;
@@ -439,6 +439,9 @@ color: #393939;
     }
     nav ul li a{
         align-self: center;
+    }
+    .navLink.active{
+        display: block;
     }
      .navBar{
         display: block;
@@ -459,6 +462,10 @@ color: #393939;
         margin-bottom: 10px;
         display: none;
     }
+    .headerTitle{
+        font-size: 40px;
+        margin-bottom: 10px;
+     }
  .textWrapper h1{
     font-size: 60px;
     padding-left: 15px;
